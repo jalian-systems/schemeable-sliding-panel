@@ -1,0 +1,74 @@
+/*
+ * Default style for metaboxes
+*/
+
+/* Styles when metabox is in the side */
+
+#side-sortables .pde-meta-box-default .pde-form-field {
+  margin-bottom: 10px;
+}
+
+#side-sortables .pde-meta-box-default .pde-form-field .pde-form-title label span:after {
+  content: ':' ;
+}
+
+#side-sortables .pde-meta-box-default .pde-form-field .pde-form-title label span:empty:after {
+  content: '' ;
+}
+
+#side-sortables .pde-meta-box-default .pde-form-field input[type="text"],
+#side-sortables .pde-meta-box-default .pde-form-field input[type="password"],
+#side-sortables .pde-meta-box-default .pde-form-field select,
+#side-sortables .pde-meta-box-default .pde-form-field textarea {
+  width: 100%;
+}
+
+#side-sortables .pde-meta-box-default .pde-form-field .pde-form-description {
+  font-style: italic ;
+}
+
+#side-sortables .pde-meta-box-default .pde-form-field .pde-form-input input.pde-plugin-pickcolor-text {
+  width: 80px ;
+}
+
+/* Styles when metabox is in the main area */
+
+#normal-sortables .pde-meta-box-default .pde-form-field {
+  margin-bottom: 10px;
+}
+
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-title {
+  width: 200px;
+  padding: 0 0 0 10px;
+  display: inline-block ;
+  vertical-align: top;
+}
+
+#normal-sortables .pde-meta-box-default .pde-form-field.pde-form-label {
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-input {
+  width: 25em ;
+  display: inline-block ;
+  vertical-align: top;
+}
+
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-description {
+  padding-left: 5px;
+  font-style: italic ;
+  display: inline-block ;
+  vertical-align: top;
+}
+
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-input input[type="text"],
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-input input[type="password"],
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-input textarea,
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-input select {
+  width: 100%;
+}
+
+#normal-sortables .pde-meta-box-default .pde-form-field .pde-form-input input.pde-plugin-pickcolor-text {
+  width: auto ;
+}

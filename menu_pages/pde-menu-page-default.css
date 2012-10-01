@@ -1,0 +1,57 @@
+/*
+ * Default style for menu-pages
+*/
+
+div.pde-menu-page-default {
+	width: 830px;
+}
+
+.pde-menu-page-default h2 {
+  margin-bottom: 10px;
+}
+
+.pde-menu-page-default .pde-form-field {
+  margin-bottom: 10px;
+}
+
+.pde-menu-page-default .pde-form-field .pde-form-title {
+  width: 200px;
+  padding: 0 0 0 10px;
+  display: inline-block ;
+  vertical-align: top;
+}
+
+.pde-menu-page-default .pde-form-field.pde-form-label {
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.pde-menu-page-default .pde-form-field .pde-form-input {
+  width: 300px;
+  display: inline-block ;
+  vertical-align: top;
+}
+
+.pde-menu-page-default .pde-form-field .pde-form-description {
+  padding-left: 5px;
+  font-size: 80%;
+  font-style: italic ;
+  display: inline-block ;
+  vertical-align: top;
+  width: 260px;
+}
+
+.pde-menu-page-default .pde-form-field .pde-form-input input[type="text"],
+.pde-menu-page-default .pde-form-field .pde-form-input input[type="password"],
+.pde-menu-page-default .pde-form-field .pde-form-input textarea,
+.pde-menu-page-default .pde-form-field .pde-form-input select {
+  width: 100%;
+}
+
+.pde-menu-page-default .pde-form-field .pde-form-input input.pde-plugin-pickcolor-text {
+  width: auto ;
+}
+
+.pde-form-images-img img {
+  width: 100%;
+}
